@@ -29,7 +29,7 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
-  passwordLength = prompt("How long would you like your password to be? Choose between 8 and 128 characters.");
+  passwordLength = prompt("How long would you like your password? Choose between 8 and 128 characters.");
   console.log("Password length " + passwordLength);
   
   if(!passwordLength) {
@@ -124,7 +124,7 @@ function generatePassword() {
   }
 
   var password = passwordBlank.join("");
-  console.log("Your Pasword is: " + password);
+  console.log("Your Password is: " + password);
   return password;
   
 }
