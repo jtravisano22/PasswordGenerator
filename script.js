@@ -40,9 +40,9 @@ function generatePassword() {
     console.log("Password length " + passwordLength);
   
   } else { 
-    lowerChar = confirm("Lower case letters?");
+    lowerChar = confirm("Lowercase letters?");
     console.log("Lower case " + lowerChar);
-    upperChar = confirm("Upper case letters?");
+    upperChar = confirm("Uppercase letters?");
     console.log("Upper case " + upperChar);
     numberChar = confirm("Numbers?");
     console.log("Number " + numberChar);
